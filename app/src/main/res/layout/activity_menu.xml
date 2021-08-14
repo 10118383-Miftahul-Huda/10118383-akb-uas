@@ -1,0 +1,155 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grid1"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arround Bandung"
+                android:textSize="30sp"
+                android:fontFamily="@font/novaflat"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/darkwhite">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alun - Alun Bandung"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/allbdg"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="20dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terletak dipusat Kota Bandung dengan bangunan khasnya Masjid Besar dan Lapangan yang luas"
+                android:paddingTop="45dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:textSize="6pt"
+                android:textColor="@color/black">
+
+            </TextView>
+            <Button
+                android:id="@+id/menubutton1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="More">
+            </Button>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/darkwhite">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tebing Keraton"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tkeraton"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="20dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tebing Keraton merupakan sebuah tebing yang berada di dalam kawasan Taman Hutan Raya Ir. H. Djuanda"
+                android:paddingTop="45dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:textSize="6pt"
+                android:textColor="@color/black">
+
+            </TextView>
+            <Button
+                android:id="@+id/menubutton2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/black"
+                android:text="More">
+            </Button>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white">
+            <Button
+                android:id="@+id/btn_profil"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginLeft="170dp"
+                android:background="@drawable/ic_baseline_person_24"
+                android:backgroundTint="@color/black">
+            </Button>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:layout_marginLeft="144dp"
+                android:text="My Profile"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/novaflat">
+            </TextView>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

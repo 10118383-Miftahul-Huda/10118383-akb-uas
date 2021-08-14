@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    tools:context=".MapsActivitydua">
+
+    <LinearLayout
+        android:id="@+id/maps2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </fragment>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/maps2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            android:background="@color/darkwhite">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alun - Alun Bandung"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:textSize="9pt"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tkeraton"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="20dp">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tebing Keraton merupakan sebuah tebing yang berada di dalam kawasan Taman Hutan Raya Ir. H. Djuanda"
+                android:paddingTop="45dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="10dp"
+                android:textSize="6pt"
+                android:textColor="@color/black">
+
+            </TextView>
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginLeft="25dp"
+                android:text="BACK">
+            </Button>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

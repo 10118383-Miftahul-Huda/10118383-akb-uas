@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backround" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton22"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_boton"
+            android:layout_width="63dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="70dp"
+            android:backgroundTint="@color/white">
+
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="595dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="162dp"
+            android:layout_marginRight="70dp"
+            android:background="@drawable/ic_baseline_arrow_forward_24"
+            android:backgroundTint="@color/black">
+
+        </ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boton22">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:text="Let's go traveling"
+            android:textSize="9pt"
+            android:textColor="@color/white"
+            android:textAlignment="center">
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>
